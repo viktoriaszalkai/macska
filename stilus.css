@@ -27,14 +27,14 @@
 .menu ul a{
     text-decoration: none;
 }
-.gomb1{
+#gomb1{
     background-color: orangered;
     border-radius: 20px;
     padding: 10px 40px 10px 40px;
     margin: auto;
     color: #ffffff;    
 }
-.gomb2{
+#gomb2{
     background-color: orangered;
     border-radius: 20px;
     padding: 10px 20px 10px 20px;
@@ -51,7 +51,50 @@
     color:#ffffff;
 }
 
-.alcim{
+#alcim{
     color:#ffffff65;
    padding: 10px;
+}
+
+/*MÁSODIK DIV*/
+
+.masodik{
+    background-color: black;
+    width: 100%;
+    max-width:fit-content;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuMasodik ul{
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+.menuMasodik{
+    padding:20px;
+    padding-bottom: 100px;
+   
+}
+.menuMasodik ul a{
+    text-decoration: none;
+}
+
+.cimMasodik{
+    padding: 10px;
+    padding-top: 100px;
+    margin: 0px;
+}
+#gomb4{
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 20px 80px 20px 80px;
+    margin: auto;
+    color: #ffffff;  
+    font-size: 20px;
 }
