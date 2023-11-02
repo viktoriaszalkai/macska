@@ -22,7 +22,7 @@
 }
 .menu{
     padding:20px;
-   
+   font-size: larger;
 }
 .menu ul a{
     text-decoration: none;
@@ -66,6 +66,8 @@
     color: #ffffff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 206.522px;
+    padding-right:206.522px;
 }
 
 .menuMasodik ul{
@@ -90,11 +92,213 @@
     padding-top: 100px;
     margin: 0px;
 }
-#gomb4{
+.gomb4{
     background-color: orangered;
     border-radius: 30px;
-    padding: 20px 80px 20px 80px;
+    padding: 20px 70px 20px 70px;
     margin: auto;
     color: #ffffff;  
-    font-size: 20px;
+    font-size: 15px;
+}
+
+/*HARMADIK DIV*/
+.harmadik{
+    background-color: black;
+    width: 100%;
+    max-width:fit-content;
+    margin: auto;
+    padding-left: 84.348px;
+    padding-right: 84.348px;
+}
+.harmadik h1{
+    margin-top: 0px;
+}
+.harmadik p{
+    color: #ffffff65;
+}
+.harmadik li{
+    color: #ffffff65;
+    text-align:left;
+}
+.kepekHarmadik{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:10px;
+}
+.kepekH img{
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.kepekH p{
+    color: white;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+/* NEGYEDIK */
+.negyedik{
+    background-color: black;
+    width: 100%;
+    max-width:fit-content;
+    margin: auto;
+    padding-left: 84.348px;
+    padding-right: 84.348px;
+}
+.negyedik h1{
+    margin-top: 0px;
+}
+.negyedik p{
+    color: #ffffff65;
+}
+.negyedik li{
+    color: #ffffff65;
+    text-align:left;
+}
+.kepekNegyedik{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:10px;
+}
+.kepekN img{
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.kepekN p{
+    color: white;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+/* ÖTÖDIK */
+.otodik{
+    background-color: black;
+}
+.otodik h1{
+    margin-top: 0px;
+}
+.kepekotodik{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:20px;
+    padding: 20px;
+}
+.kepOt1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 30px;
+}
+.kepOt1 img{
+    width: 100px;
+    float: left;
+}
+.kepOt2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+    padding: 30px;
+}
+.kepOt2 img{
+    width: 80px;
+    float: left;
+}
+.otodik a{
+    text-decoration: none;
+}
+.otodik h2{
+    color: #000;
+   text-align: left;
+   margin-top: 70px;
+   margin-bottom: 10px;
+}
+.kepOt1 h2{
+    margin-top:70px;
+}
+.kepOt1 p{
+    padding-bottom: 30px;
+}
+.otodik p{
+    color: #000;
+    padding: 10px;
+    text-align: left;
+  
+}
+.gomb5{
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 15px 70px 15px 70px;
+    margin-top: 20px;
+    color: #ffffff;  
+    font-size: 15px;
+}
+
+/* HATODIK */
+.hatodik{
+    background-color: #000;
+
+}
+.hatodik h1{
+    margin-top: 0px;
+}
+.hatodik h2{
+    text-align: left;
+}
+.hatodik p{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.hatodik a{
+    text-decoration: none;
+}
+.kepekHatodik{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:20px;
+    padding: 20px;
+}
+.hatodik1{
+    background-color:rgb(58, 58, 58);
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.hatodik1 p{
+    padding-bottom: 30px;
+}
+#datum{
+    padding-bottom: 20px;
+}
+.hatodik2{
+    background-color:rgb(58, 58, 58);
+    border-radius: 10px;
+    margin-right: 40px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.gomb6{
+    background-color: rgb(58, 58, 58);
+    border:5px solid orangered;
+    border-radius: 30px;
+    padding: 15px 70px 15px 70px;
+    margin-top: 20px;
+    color: #ffffff;  
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+.gomb7{
+    background-color: rgb(58, 58, 58);
+    border:5px solid orangered;
+    border-radius: 30px;
+    padding: 15px 50px 15px 50px;
+    margin-top: 20px;
+    color: #ffffff;  
+    font-size: 15px;
+    margin-bottom: 20px;
 }
